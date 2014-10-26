@@ -1,0 +1,165 @@
+<p>Error on Oct 26, 2014 8:52AM - Invalid argument supplied for foreach() in /home/exolvete/public_html/eagleeye/app/controllers/api.php on line 63</p><p>Error on Oct 26, 2014 8:48AM - Invalid argument supplied for foreach() in /home/exolvete/public_html/eagleeye/app/controllers/api.php on line 63</p><p>Error on Oct 26, 2014 8:47AM - Invalid argument supplied for foreach() in /home/exolvete/public_html/eagleeye/app/controllers/api.php on line 63</p><p>Error on Oct 26, 2014 8:47AM - Invalid argument supplied for foreach() in /home/exolvete/public_html/eagleeye/app/controllers/api.php on line 63</p><h3>Exception information:</h3>
+
+       <p><strong>Date:</strong> Oct 25, 2014 19:19PM</p>
+
+       <p><strong>Message:</strong> SQLSTATE[42S02]: Base table or view not found: 1146 Table 'exolvete_eagle.states' doesn't exist</p>
+
+       <p><strong>Code:</strong> 42S02</p>
+
+       <p><strong>File:</strong> /home/exolvete/public_html/eagleeye/app/helpers/database.php</p>
+
+       <p><strong>Line:</strong> 82</p>
+
+       <h3>Stack trace:</h3>
+
+       <pre>#0 /home/exolvete/public_html/eagleeye/app/helpers/database.php(82): PDOStatement->execute()
+#1 /home/exolvete/public_html/eagleeye/app/core/model.php(64): helpers\Database->select('SELECT * FROM s...')
+#2 /home/exolvete/public_html/eagleeye/app/controllers/app.php(30): core\Model->all()
+#3 /home/exolvete/public_html/eagleeye/app/controllers/home.php(17): controllers\App->__construct()
+#4 /home/exolvete/public_html/eagleeye/app/core/router.php(137): controllers\Home->__construct()
+#5 /home/exolvete/public_html/eagleeye/app/core/router.php(230): core\Router::autoDispatch()
+#6 /home/exolvete/public_html/eagleeye/index.php(76): core\Router::dispatch()
+#7 {main}</pre>
+
+       <hr />
+<h3>Exception information:</h3>
+
+       <p><strong>Date:</strong> Oct 25, 2014 19:17PM</p>
+
+       <p><strong>Message:</strong> SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)</p>
+
+       <p><strong>Code:</strong> 1045</p>
+
+       <p><strong>File:</strong> /home/exolvete/public_html/eagleeye/app/helpers/database.php</p>
+
+       <p><strong>Line:</strong> 50</p>
+
+       <h3>Stack trace:</h3>
+
+       <pre>#0 /home/exolvete/public_html/eagleeye/app/helpers/database.php(50): PDO->__construct('mysql:host=127....', 'root', '')
+#1 /home/exolvete/public_html/eagleeye/app/core/model.php(22): helpers\Database->__construct()
+#2 /home/exolvete/public_html/eagleeye/app/models/user.php(9): core\Model->__construct()
+#3 /home/exolvete/public_html/eagleeye/app/controllers/app.php(19): models\User->__construct()
+#4 /home/exolvete/public_html/eagleeye/app/controllers/home.php(17): controllers\App->__construct()
+#5 /home/exolvete/public_html/eagleeye/app/core/router.php(137): controllers\Home->__construct()
+#6 /home/exolvete/public_html/eagleeye/app/core/router.php(230): core\Router::autoDispatch()
+#7 /home/exolvete/public_html/eagleeye/index.php(76): core\Router::dispatch()
+#8 {main}</pre>
+
+       <hr />
+<p>Error on Oct 25, 2014 17:21PM - require(app/views/search/detail.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in C:\wamp\www\eagleeye\app\core\view.php on line 20</p><h3>Exception information:</h3>
+
+       <p><strong>Date:</strong> Oct 25, 2014 17:09PM</p>
+
+       <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'plate_number' cannot be null</p>
+
+       <p><strong>Code:</strong> 23000</p>
+
+       <p><strong>File:</strong> C:\wamp\www\eagleeye\app\helpers\database.php</p>
+
+       <p><strong>Line:</strong> 121</p>
+
+       <h3>Stack trace:</h3>
+
+       <pre>#0 C:\wamp\www\eagleeye\app\helpers\database.php(121): PDOStatement->execute()
+#1 C:\wamp\www\eagleeye\app\core\model.php(72): helpers\Database->insert('complaints', Array)
+#2 C:\wamp\www\eagleeye\app\controllers\complaint.php(90): core\Model->create(Array)
+#3 C:\wamp\www\eagleeye\app\core\router.php(140): controllers\Complaint->add(Array)
+#4 C:\wamp\www\eagleeye\app\core\router.php(230): core\Router::autoDispatch()
+#5 C:\wamp\www\eagleeye\index.php(76): core\Router::dispatch()
+#6 {main}</pre>
+
+       <hr />
+<p>Error on Oct 25, 2014 14:55PM - move_uploaded_file() [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: The second argument to copy() function cannot be a directory in C:\wamp\www\eagleeye\app\controllers\complaint.php on line 102</p><p>Error on Oct 25, 2014 14:53PM - move_uploaded_file(../app/templates/default/gallery/544bab6d33b76.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in C:\wamp\www\eagleeye\app\controllers\complaint.php on line 102</p><p>Error on Oct 25, 2014 14:48PM - move_uploaded_file(../app/templates/default/gallery/544baa3bdc9ce.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in C:\wamp\www\eagleeye\app\controllers\complaint.php on line 101</p><p>Error on Oct 25, 2014 14:48PM - move_uploaded_file(../app/templates/default/gallery/544baa2d2c041.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in C:\wamp\www\eagleeye\app\controllers\complaint.php on line 101</p><p>Error on Oct 25, 2014 14:47PM - move_uploaded_file(../app/templates/default/gallery/544ba9f2a8976.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in C:\wamp\www\eagleeye\app\controllers\complaint.php on line 100</p><p>Error on Oct 25, 2014 14:47PM - move_uploaded_file(http://localhost/eagleeye/app/templates/default/gallery/544ba9dce963c.jpg) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: HTTP wrapper does not support writeable connections in C:\wamp\www\eagleeye\app\controllers\complaint.php on line 100</p><p>Error on Oct 25, 2014 14:40PM - move_uploaded_file(../app/templates/default/gallery/544ba84396368.tmp) [<a href='function.move-uploaded-file'>function.move-uploaded-file</a>]: failed to open stream: No such file or directory in C:\wamp\www\eagleeye\app\controllers\complaint.php on line 98</p><p>Error on Oct 25, 2014 14:40PM - move_uploaded_file() expects parameter 1 to be string, array given in C:\wamp\www\eagleeye\app\controllers\complaint.php on line 98</p><p>Error on Oct 25, 2014 14:39PM - pathinfo() expects parameter 1 to be string, array given in C:\wamp\www\eagleeye\app\helpers\document.php on line 59</p><h3>Exception information:</h3>
+
+       <p><strong>Date:</strong> Oct 25, 2014 14:36PM</p>
+
+       <p><strong>Message:</strong> SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'user_id' cannot be null</p>
+
+       <p><strong>Code:</strong> 23000</p>
+
+       <p><strong>File:</strong> C:\wamp\www\eagleeye\app\helpers\database.php</p>
+
+       <p><strong>Line:</strong> 121</p>
+
+       <h3>Stack trace:</h3>
+
+       <pre>#0 C:\wamp\www\eagleeye\app\helpers\database.php(121): PDOStatement->execute()
+#1 C:\wamp\www\eagleeye\app\core\model.php(72): helpers\Database->insert('complaints', Array)
+#2 C:\wamp\www\eagleeye\app\controllers\complaint.php(84): core\Model->create(Array)
+#3 C:\wamp\www\eagleeye\app\core\router.php(120): controllers\Complaint->add(Array)
+#4 C:\wamp\www\eagleeye\app\core\router.php(210): core\Router::autoDispatch()
+#5 C:\wamp\www\eagleeye\index.php(76): core\Router::dispatch()
+#6 {main}</pre>
+
+       <hr />
+<p>Error on Oct 25, 2014 13:42PM - Invalid argument supplied for foreach() in C:\wamp\www\eagleeye\app\templates\default\header.php on line 23</p><p>Error on Oct 25, 2014 13:29PM - Invalid argument supplied for foreach() in C:\wamp\www\eagleeye\app\templates\default\header.php on line 23</p><p>Error on Oct 25, 2014 13:28PM - Invalid argument supplied for foreach() in C:\wamp\www\eagleeye\app\templates\default\header.php on line 23</p><h3>Exception information:</h3>
+
+       <p><strong>Date:</strong> Oct 25, 2014 12:18PM</p>
+
+       <p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Abia' in 'where clause'</p>
+
+       <p><strong>Code:</strong> 42S22</p>
+
+       <p><strong>File:</strong> C:\wamp\www\eagleeye\app\helpers\database.php</p>
+
+       <p><strong>Line:</strong> 99</p>
+
+       <h3>Stack trace:</h3>
+
+       <pre>#0 C:\wamp\www\eagleeye\app\helpers\database.php(99): PDOStatement->execute()
+#1 C:\wamp\www\eagleeye\app\core\model.php(54): helpers\Database->select_row('SELECT * FROM s...')
+#2 C:\wamp\www\eagleeye\app\controllers\home.php(29): core\Model->get_row(Array)
+#3 C:\wamp\www\eagleeye\app\core\router.php(120): controllers\Home->index(Array)
+#4 C:\wamp\www\eagleeye\app\core\router.php(210): core\Router::autoDispatch()
+#5 C:\wamp\www\eagleeye\index.php(76): core\Router::dispatch()
+#6 {main}</pre>
+
+       <hr />
+<h3>Exception information:</h3>
+
+       <p><strong>Date:</strong> Oct 25, 2014 12:18PM</p>
+
+       <p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Abia' in 'where clause'</p>
+
+       <p><strong>Code:</strong> 42S22</p>
+
+       <p><strong>File:</strong> C:\wamp\www\eagleeye\app\helpers\database.php</p>
+
+       <p><strong>Line:</strong> 99</p>
+
+       <h3>Stack trace:</h3>
+
+       <pre>#0 C:\wamp\www\eagleeye\app\helpers\database.php(99): PDOStatement->execute()
+#1 C:\wamp\www\eagleeye\app\core\model.php(52): helpers\Database->select_row('SELECT * FROM s...')
+#2 C:\wamp\www\eagleeye\app\controllers\home.php(29): core\Model->get_row(Array)
+#3 C:\wamp\www\eagleeye\app\core\router.php(120): controllers\Home->index(Array)
+#4 C:\wamp\www\eagleeye\app\core\router.php(210): core\Router::autoDispatch()
+#5 C:\wamp\www\eagleeye\index.php(76): core\Router::dispatch()
+#6 {main}</pre>
+
+       <hr />
+<h3>Exception information:</h3>
+
+       <p><strong>Date:</strong> Oct 25, 2014 12:17PM</p>
+
+       <p><strong>Message:</strong> SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Lagos' in 'where clause'</p>
+
+       <p><strong>Code:</strong> 42S22</p>
+
+       <p><strong>File:</strong> C:\wamp\www\eagleeye\app\helpers\database.php</p>
+
+       <p><strong>Line:</strong> 99</p>
+
+       <h3>Stack trace:</h3>
+
+       <pre>#0 C:\wamp\www\eagleeye\app\helpers\database.php(99): PDOStatement->execute()
+#1 C:\wamp\www\eagleeye\app\core\model.php(52): helpers\Database->select_row('SELECT * FROM s...')
+#2 C:\wamp\www\eagleeye\app\controllers\home.php(29): core\Model->get_row(Array)
+#3 C:\wamp\www\eagleeye\app\core\router.php(120): controllers\Home->index(Array)
+#4 C:\wamp\www\eagleeye\app\core\router.php(210): core\Router::autoDispatch()
+#5 C:\wamp\www\eagleeye\index.php(76): core\Router::dispatch()
+#6 {main}</pre>
+
+       <hr />
+<p>Error on Oct 25, 2014 12:15PM - array_merge() [<a href='function.array-merge'>function.array-merge</a>]: Argument #2 is not an array in C:\wamp\www\eagleeye\app\core\language.php on line 39</p><p>Error on Oct 25, 2014 12:01PM - require(app/templates//header.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in C:\wamp\www\eagleeye\app\core\view.php on line 28</p>

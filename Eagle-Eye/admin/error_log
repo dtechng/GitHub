@@ -1,0 +1,6 @@
+[26-Oct-2014 11:20:09 Africa/Lagos] PHP Fatal error:  Class 'Session' not found in /home/exolvete/public_html/eagleeye/admin/app/templates/admin/header.php on line 40
+[26-Oct-2014 11:22:30 Africa/Lagos] PHP Fatal error:  Class 'Session' not found in /home/exolvete/public_html/eagleeye/admin/app/templates/admin/header.php on line 40
+[26-Oct-2014 11:23:26 Africa/Lagos] PHP Fatal error:  Class 'Helpers\Session\Session' not found in /home/exolvete/public_html/eagleeye/admin/app/templates/admin/header.php on line 40
+[26-Oct-2014 11:25:20 Africa/Lagos] PHP Fatal error:  Call to undefined method models\Complaint::getAllByCo() in /home/exolvete/public_html/eagleeye/admin/app/controllers/admin.php on line 115
+[26-Oct-2014 11:26:12 Africa/Lagos] PHP Fatal error:  Call to undefined method models\Complaint::getAllByCo() in /home/exolvete/public_html/eagleeye/admin/app/controllers/admin.php on line 115
+[26-Oct-2014 11:28:42 Africa/Lagos] PHP Parse error:  syntax error, unexpected 'View' (T_STRING), expecting function (T_FUNCTION) in /home/exolvete/public_html/eagleeye/admin/app/controllers/admin.php on line 183

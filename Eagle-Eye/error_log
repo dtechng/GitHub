@@ -1,0 +1,8 @@
+[26-Oct-2014 06:09:58 Africa/Lagos] PHP Fatal error:  Class 'core\Controller' not found in /home/exolvete/public_html/eagleeye/app/core/model.php on line 9
+[26-Oct-2014 06:11:34 Africa/Lagos] PHP Fatal error:  Class '\controllers\complaint' not found in /home/exolvete/public_html/eagleeye/app/core/router.php on line 137
+[26-Oct-2014 06:13:10 Africa/Lagos] PHP Fatal error:  Class '\controllers\complaint' not found in /home/exolvete/public_html/eagleeye/app/core/router.php on line 137
+[26-Oct-2014 10:41:10 Africa/Lagos] PHP Parse error:  syntax error, unexpected '$summary' (T_VARIABLE) in /home/exolvete/public_html/eagleeye/app/views/complaint/detail.php on line 110
+[26-Oct-2014 10:51:07 Africa/Lagos] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/exolvete/public_html/eagleeye/app/controllers/api.php on line 110
+[26-Oct-2014 10:52:45 Africa/Lagos] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/exolvete/public_html/eagleeye/app/controllers/api.php on line 110
+[26-Oct-2014 10:53:18 Africa/Lagos] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/exolvete/public_html/eagleeye/app/controllers/api.php on line 110
+[26-Oct-2014 10:53:47 Africa/Lagos] PHP Fatal error:  Cannot re-assign auto-global variable _POST in /home/exolvete/public_html/eagleeye/app/controllers/api.php on line 110

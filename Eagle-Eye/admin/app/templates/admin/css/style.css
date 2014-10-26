@@ -1,0 +1,30 @@
+body{
+	padding-top: 50px;
+	font-family: "Open sans",sans-serif;
+}
+.main-container {
+	/*background: #f7f7f7;*/
+	padding-top: 10px;
+  	padding-bottom: 20px;
+}
+.black{
+background-color: #000;
+color: #fff;
+padding: 5px;
+text-align: center;
+}
+.search-result{
+	/*border-top: 1px solid #333;*/
+	border-bottom: 1px solid #333;
+	margin-bottom: 5px;
+}
+.description{
+	text-align: justify;
+	margin:5px;
+}
+.otherimages{
+
+}
+.response{
+	margin:10px;
+}
